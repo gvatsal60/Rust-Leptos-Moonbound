@@ -47,7 +47,7 @@ repos:
       - id: clang-format
   # ESLint for linting JavaScript and TypeScript files
   - repo: https://github.com/pre-commit/mirrors-eslint
-    rev: "v9.9.1"
+    rev: "v9.10.0"
     hooks:
       - id: eslint
   # Runs mypy to check Python type annotations.
@@ -120,7 +120,7 @@ repos:
       - id: sqlfluff-fix
   # RuboCop for linting Ruby files
   - repo: https://github.com/rubocop/rubocop
-    rev: "v1.66.0"
+    rev: "v1.66.1"
     hooks:
       - id: rubocop
   # Terraform-py for formatting and validating Terraform files
